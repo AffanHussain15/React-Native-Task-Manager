@@ -1,97 +1,21 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+⭐ Key Features
 
-# Getting Started
+• Integrated advanced data visualizations using react-native-gifted-charts, including horizontal bar charts, vertical bar charts, and donut charts to present insights in a clean, interactive way.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+• Implemented real-time search functionality, allowing users to instantly filter tasks and data without delays.
 
-## Step 1: Start Metro
+• Added dropdown-based filtering to let users sort and view tasks by category, type, or priority with ease.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+• Included a fully functional calendar system for date selection, tracking daily tasks, and viewing timeline-based activity.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+• Designed a pixel-perfect UI inspired directly from Figma, ensuring high-quality layout accuracy, spacing consistency, and a modern visual experience.
 
-```sh
-# Using npm
-npm start
+• Integrated Bottom Tab Navigation and Stack Navigation for a smooth, intuitive, and well-structured user journey across multiple screens.
 
-# OR using Yarn
-yarn start
-```
+• Developed multiple pages with clean code structure, organized folders, and reusable UI components for maintainability and scalability.
 
-## Step 2: Build and run your app
+• Ensured a fully responsive interface across different screen sizes with optimized layouts, balanced spacing, and adaptive components.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+• Applied proper SafeAreaView handling, padding, and design best practices to deliver a seamless experience on all devices.
 
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+• Utilized reusable helper functions for chart data processing, search logic, filtering, and navigation, improving performance and code readability.
