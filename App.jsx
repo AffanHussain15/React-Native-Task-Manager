@@ -15,6 +15,7 @@ import Profile from './src/screens/Dashboard/Profile';
 import ManageStatus from './src/screens/Dashboard/ManageStatus';
 import ManageCategory from './src/screens/Dashboard/ManageCategory';
 import TaskDetail from './src/screens/Dashboard/TaskDetail';
+import Project from './src/screens/Dashboard/Project'
 import FONTS from './src/utils/Fonts';
 import COLOR from './src/utils/Color';
 
@@ -63,7 +64,7 @@ const BottomNavigation = () => {
             image = require('./src/assets/tasks.png');
           } else if (route.name === 'Approval') {
             image = require('./src/assets/approval.png');
-          } else if (route.name === 'Notifications') {
+          } else if (route.name === 'Project') {
             image = require('./src/assets/project.png');
           } else if (route.name === 'Analytics') {
             image = require('./src/assets/analytics.png');
@@ -126,8 +127,8 @@ const BottomNavigation = () => {
         }}
       />
       <Tab.Screen
-        name="Notifications"
-        component={Notifications}
+        name="Project"
+        component={Project}
         options={{
           tabBarLabel: 'Project',
         }}
@@ -165,6 +166,11 @@ const DashboardScreens = () => {
       <Stack.Screen
         name="ManageCategory"
         component={ManageCategory}
+        options={{ headerShown: false, tabBarStyle: { display: 'none' } }}
+      />
+      <Stack.Screen
+        name="Notifications"
+        component={Notifications}
         options={{ headerShown: false, tabBarStyle: { display: 'none' } }}
       />
     </Stack.Navigator>
